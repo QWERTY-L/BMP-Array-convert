@@ -4,7 +4,8 @@ This project allows you to convert from BMP to array and array to BMP in c++
 ## Usage
 
 
-```#include "BMPArrayConvert.hpp"
+```
+#include "BMPArrayConvert.hpp"
 
 BMP::arrayToBMP(std::string filePath, std::vector<std::vector<unsigned int>> red_channel, std::vector<std::vector<unsigned int>> green_channel, std::vector<std::vector<unsigned int>> blue_channel)
 ```
